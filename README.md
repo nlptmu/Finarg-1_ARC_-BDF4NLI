@@ -10,3 +10,9 @@ In addition, there was an inherent imbalance in the dataset that was the most no
 strategy: (1) SMOTE Data Augmentation (RS): An experimental foray into the Synthetic Minority Over-sampling Technique (SMOTE) was undertaken. This technique artfully rebalanced the dataset by synthetically oversampling the minority classes. (2) Class Weighting (CL): Parallelly, we ventured into Class Weighting, applied judiciously to the loss function. The essence of this tactic was to allocate disparate weights to classes in alignment with their frequency. This inherently accorded higher significance to the more sparsely represented classes. In the integration of BERT for enhancing the performance, we employed a soft voting ensemble technique to amalgamate both BART and DEBERTA seamlessly.
 
 Noteworthy, in the study by (Chang et al., 2022), there's compelling evidence illustrating the efficacy of the Log Likelihood Ratio (LLR) in generating and amalgamating linguistic patterns, leading to a substantial enhancement in predictive accuracy. Drawing inspiration from this revelation, we harness LLR to discern the significance of individual words nested within both sentences. This empowers us to cultivate distinguishing linguistic patterns rooted in their relationship scores. Thus Subsequently, this crafted feature space is seamlessly concatenated with the latent vector derived post an ensemble with BERT.
+
+## Reference
+Please cite these papers in your publications if BDF4NLI helps your research.
+author = {} ,
+title = {},
+year = {2023}
