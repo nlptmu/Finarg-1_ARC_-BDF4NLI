@@ -13,6 +13,12 @@ Noteworthy, in the study by (Chang et al., 2022), there's compelling evidence il
 
 ## Reference
 Please cite these papers in your publications if BDF4NLI helps your research.
+
   @author = {Hen-You Lin, Eugene Sy, Tzu-Cheng Peng, Shih-Hsuan Huang, Yung-Chung Chang},
     title = {TMUNLP at the NTCIR-17 FinArg-1 Task},
     year = {2023}
+  @author = {Eugene L. Sy,Tzu-Cheng Peng, Shih-Hsuan Huang, Hen-You Lin, Yung-Chung Chang},
+    title = {Fine-Grained Argument Understanding with BERT Ensemble Techniques:A Deep Dive into Financial Sentiment Analysis},
+    year = {2023}
+
+    
